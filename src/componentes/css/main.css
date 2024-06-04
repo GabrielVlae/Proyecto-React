@@ -4,18 +4,21 @@
     box-sizing: border-box;
     font-family: sans-serif;
   }
+
+  /*? HEADER */
   
   .header{
     display: flex;
     justify-content: space-between;
-    padding-inline: 2rem;
+    padding: 1rem 2.5rem;
     align-items: center;
     background-color: black;
     color: white;
   }
-  
-  .header h1{
-    font-size: 3rem;
+
+  .header img{
+    width: 100px;
+    height: 100px;
   }
   
   .navBar{
@@ -23,11 +26,14 @@
     gap: 4rem;
     list-style-type: none;
   }
+
   
   .navBar li a{
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
+    text-transform: uppercase;
+    font-style: italic;
   }
   
   .container-carrito{
@@ -39,17 +45,197 @@
   
   .icono-carrito{
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
-  
-  .container-productos{
-    height: 50vh;
-    display: grid;
-    place-content: center;
+
+  .container-load{
+    width: 100vw;
   }
 
-  .titulo-productos{
+  .load{
+    height: 100vh;
     font-size: 3rem;
+    font-weight: bold;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
     font-style: italic;
+  }
+
+  .navBar.active{
+    text-decoration: underline;
+    font-size: 8rem;
+  }
+
+  /*? PRODUCTOS */
+
+  .titulo-productos{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-block: 3rem;
+    font-style: italic;
+  }
+
+  .container-cards{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 2rem;
+  }
+
+  .container-cards img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .card-producto{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .card-body{
+    background-color: black;
+    color: white;
+    padding: 1rem 0.5rem;
+  }
+
+  .card-body h2{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  .card-body p{
+    margin-bottom: 0.7rem;
+    text-align: center;
+  }
+
+  .card-body .precio{
+    font-weight: bold;
+    margin-top: 0.7rem;
+    font-size: 2rem;
+  }
+
+  .card-body .btn-productos{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .btn-productos:hover{
+    background-color: white;
+    font-weight: bold;
+    color: black;
+  }
+
+  /*? PRODUCTOS DETAILS */
+
+  .container-details{
+    height: 100vh;
+    padding: 4rem;
+  }
+
+  .container-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 5px 5px 15px #b8b8b8;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px 0 10px 0;
+  }
+
+  .parte-izquierda{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parte-izquierda img{
+    width: 60%;
+    object-fit: contain;
+    filter: drop-shadow(30px 20px 20px black);
+  }
+
+  .parte-derecha h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .parte-derecha{
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parte-derecha p{
+    font-size: 1.35rem;
+    line-height: 2rem;
+    margin-top: 8rem;
+  }
+
+  .parte-derecha .precio-details{
+    font-size: 3rem;
+  }
+
+  /*? NOTFOUND */
+
+  .container-notfound{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .container-notfound .icono-notfound{
+    font-size: 9rem;
+  }
+
+  .container-notfound span{
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .container-notfound p{
+    font-size:4rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  /*? FOOTER */
+  
+  .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .footer p{
+    font-size: 1.75rem;
+    margin-bottom: 1rem
   }

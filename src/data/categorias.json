@@ -1,0 +1,14 @@
+[
+    {
+        "id": "suplementos",
+        "nombre": "Suplementos"
+    },
+    {
+        "id": "ropa",
+        "nombre": "Ropa"
+    },
+    {
+        "id": "objetos",
+        "nombre": "Objetos"
+    }
+]

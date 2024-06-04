@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "nombre": "Creatina",
+        "precio": 29.99,
+        "imagen": "/src/img/creatina.png",
+        "descripcion": "Suplemento que mejora la fuerza, el rendimiento y la recuperación muscular.",
+        "descripcionLarga": "¡Potencia tus entrenamientos con nuestra creatina de alta calidad! Este suplemento es esencial para aumentar la fuerza, mejorar el rendimiento y acelerar la recuperación muscular. Perfecto para atletas y entusiastas del fitness que buscan llevar sus sesiones de ejercicio al siguiente nivel. Nuestra creatina se mezcla fácilmente con cualquier bebida, ayudándote a maximizar tus resultados y alcanzar tus metas de manera más rápida y efectiva. Siente la diferencia en tu energía y resistencia con cada dosis.",
+        "categoria": {
+            "id": "suplementos",
+            "nombre": "Suplementos"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Proteina",
+        "precio": 39.99,
+        "imagen": "/src/img/proteina.png",
+        "descripcion": "Complemento nutricional que ayuda al desarrollo y mantenimiento muscular.",
+        "descripcionLarga": "¡Impulsa tus músculos con nuestro suplemento de proteína! Ideal para quienes buscan aumentar masa muscular y mejorar su recuperación post-entrenamiento. Nuestro suplemento es fácil de mezclar y viene en deliciosos sabores, perfecto para agregar a tus batidos diarios. Ya sea que estés entrenando intensamente o simplemente necesites un impulso proteico, nuestra fórmula te ayudará a alcanzar tus objetivos más rápido.",
+        "categoria": {
+            "id": "suplementos",
+            "nombre": "Suplementos"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Multivitaminico",
+        "precio": 19.99,
+        "imagen": "/src/img/multivitaminico.png",
+        "descripcion": "Suplemento que proporciona diversas vitaminas esenciales para la salud.",
+        "descripcionLarga": "Mantén tu salud en su mejor nivel con nuestro multivitamínico. Proporciona todas las vitaminas y minerales esenciales que tu cuerpo necesita para sentirse fuerte y lleno de energía cada día. Ideal para complementar tu dieta y asegurar que obtienes todos los nutrientes necesarios para un bienestar óptimo. Con una sola dosis diaria, sentirás la diferencia en tu energía y vitalidad.",
+        "categoria": {
+            "id": "suplementos",
+            "nombre": "Suplementos"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Quemador de grasa",
+        "precio": 19.99,
+        "imagen": "/src/img/quemador-grasa.png",
+        "descripcion": "Ayuda a acelerar el metabolismo y a reducir la grasa corporal.",
+        "descripcionLarga": "¡Acelera tu camino hacia una figura esbelta con nuestro quemador de grasa! Formulado para aumentar tu metabolismo y ayudarte a quemar calorías más rápidamente. Este suplemento te dará el impulso extra que necesitas para alcanzar tus objetivos de pérdida de peso de manera efectiva. Con ingredientes naturales y potentes, verás resultados sorprendentes en poco tiempo.",
+        "categoria": {
+            "id": "suplementos",
+            "nombre": "Suplementos"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Quemador de grasa liquido",
+        "precio": 29.99,
+        "imagen": "/src/img/quemador-grasa-liquido.png",
+        "descripcion": "Ayuda a acelerar el metabolismo y a reducir la grasa corporal.",
+        "descripcionLarga": "¡Acelera tu camino hacia una figura esbelta con nuestro quemador de grasa! Formulado para aumentar tu metabolismo y ayudarte a quemar calorías más rápidamente. Este suplemento te dará el impulso extra que necesitas para alcanzar tus objetivos de pérdida de peso de manera efectiva. Con ingredientes naturales y potentes, verás resultados sorprendentes en poco tiempo.",
+        "categoria": {
+            "id": "suplementos",
+            "nombre": "Suplementos"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Ganador de peso",
+        "precio": 29.99,
+        "imagen": "/src/img/ganador-peso.png",
+        "descripcion": "Suplemento que ayuda a aumentar la masa muscular y el peso corporal.",
+        "descripcionLarga": "Gana masa muscular y peso de forma efectiva con nuestro ganador de peso. Rico en proteínas, carbohidratos y calorías, es el complemento perfecto para quienes buscan resultados rápidos en su entrenamiento. Ideal para personas con metabolismo rápido o aquellos que luchan por ganar peso, nuestra fórmula te ayudará a alcanzar tus metas de manera rápida y deliciosa.",
+        "categoria": {
+            "id": "suplementos",
+            "nombre": "Suplementos"
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Remera azul mujer",
+        "precio": 49.99,
+        "imagen": "/src/img/remera-azul-mujer.png",
+        "descripcion": "Camiseta ligera y transpirable, perfecta para hacer ejercicio.",
+        "descripcionLarga": "Descubre nuestras remeras deportivas diseñadas para ofrecerte el máximo confort y rendimiento durante tus entrenamientos. Fabricadas con materiales de alta calidad y tecnología de última generación, nuestras remeras son ligeras, transpirables y de secado rápido, manteniéndote fresco y seco incluso durante las sesiones más intensas.",
+        "categoria": {
+            "id": "ropa",
+            "nombre": "Ropa"
+        }
+    },
+    {
+        "id": 8,
+        "nombre": "Remera negra hombre",
+        "precio": 49.99,
+        "imagen": "/src/img/remera-negra-hombre.png",
+        "descripcion": "Camiseta ligera y transpirable, perfecta para hacer ejercicio.",
+        "descripcionLarga": "Descubre nuestras remeras deportivas diseñadas para ofrecerte el máximo confort y rendimiento durante tus entrenamientos. Fabricadas con materiales de alta calidad y tecnología de última generación, nuestras remeras son ligeras, transpirables y de secado rápido, manteniéndote fresco y seco incluso durante las sesiones más intensas.",
+        "categoria": {
+            "id": "ropa",
+            "nombre": "Ropa"
+        }
+    },
+    {
+        "id": 9,
+        "nombre": "Musculosa blanca mujer",
+        "precio": 49.99,
+        "imagen": "/src/img/musculosa-blanca-mujer.png",
+        "descripcion": "Camiseta ligera y transpirable, perfecta para hacer ejercicio.",
+        "descripcionLarga": "Descubre nuestras remeras deportivas diseñadas para ofrecerte el máximo confort y rendimiento durante tus entrenamientos. Fabricadas con materiales de alta calidad y tecnología de última generación, nuestras remeras son ligeras, transpirables y de secado rápido, manteniéndote fresco y seco incluso durante las sesiones más intensas.",
+        "categoria": {
+            "id": "ropa",
+            "nombre": "Ropa"
+        }
+    },
+    {
+        "id": 10,
+        "nombre": "Pesa Russa",
+        "precio": 39.99,
+        "imagen": "/src/img/pesa-russa.png",
+        "descripcion": "Herramienta de ejercicio que mejora fuerza, resistencia y flexibilidad.",
+        "descripcionLarga": "¡Transforma tu entrenamiento con nuestras pesas rusas! Ideales para mejorar tu fuerza, resistencia y flexibilidad. Estas pesas versátiles son perfectas para ejercicios dinámicos que desafían todo tu cuerpo, desde balanceos hasta levantamientos. Incorpora nuestras pesas rusas a tu rutina y descubre una manera nueva y efectiva de ejercitarte.",
+        "categoria": {
+            "id": "objetos",
+            "nombre": "Objetos"
+        }
+    },
+    {
+        "id": 11,
+        "nombre": "Banda elastica",
+        "precio": 19.99,
+        "imagen": "/src/img/banda-elastica.png",
+        "descripcion": "Cinta elástica usada para ejercicios de resistencia y tonificación muscular.",
+        "descripcionLarga": "Añade versatilidad a tus entrenamientos con nuestra banda elástica de gimnasio. Ideal para ejercicios de resistencia y tonificación, es ligera, portátil y perfecta para usar en cualquier lugar. Ya sea en casa, en el gimnasio o mientras viajas, nuestra banda elástica es la herramienta perfecta para mantenerte en forma y fuerte.",
+        "categoria": {
+            "id": "objetos",
+            "nombre": "Objetos"
+        }
+    },
+    {
+        "id": 12,
+        "nombre": "Mancuernas",
+        "precio": 69.99,
+        "imagen": "/src/img/mancuernas.png",
+        "descripcion": "Pesas de mano utilizadas para tonificar y fortalecer los músculos.",
+        "descripcionLarga": "Tonifica y fortalece tus músculos con nuestras mancuernas. Disponibles en varios pesos, son esenciales para cualquier rutina de ejercicio, proporcionando resultados visibles en poco tiempo. Perfectas para ejercicios de fuerza, resistencia y rehabilitación, nuestras mancuernas te ayudarán a alcanzar tus objetivos de fitness más fácilmente.",
+        "categoria": {
+            "id": "objetos",
+            "nombre": "Objetos"
+        }
+    }
+]
