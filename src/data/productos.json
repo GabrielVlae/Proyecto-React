@@ -115,8 +115,8 @@
         "descripcion": "Herramienta de ejercicio que mejora fuerza, resistencia y flexibilidad.",
         "descripcionLarga": "¡Transforma tu entrenamiento con nuestras pesas rusas! Ideales para mejorar tu fuerza, resistencia y flexibilidad. Estas pesas versátiles son perfectas para ejercicios dinámicos que desafían todo tu cuerpo, desde balanceos hasta levantamientos. Incorpora nuestras pesas rusas a tu rutina y descubre una manera nueva y efectiva de ejercitarte.",
         "categoria": {
-            "id": "objetos",
-            "nombre": "Objetos"
+            "id": "entrenamiento",
+            "nombre": "Entrenamiento"
         }
     },
     {
@@ -127,8 +127,8 @@
         "descripcion": "Cinta elástica usada para ejercicios de resistencia y tonificación muscular.",
         "descripcionLarga": "Añade versatilidad a tus entrenamientos con nuestra banda elástica de gimnasio. Ideal para ejercicios de resistencia y tonificación, es ligera, portátil y perfecta para usar en cualquier lugar. Ya sea en casa, en el gimnasio o mientras viajas, nuestra banda elástica es la herramienta perfecta para mantenerte en forma y fuerte.",
         "categoria": {
-            "id": "objetos",
-            "nombre": "Objetos"
+            "id": "entrenamiento",
+            "nombre": "Entrenamiento"
         }
     },
     {
@@ -139,8 +139,8 @@
         "descripcion": "Pesas de mano utilizadas para tonificar y fortalecer los músculos.",
         "descripcionLarga": "Tonifica y fortalece tus músculos con nuestras mancuernas. Disponibles en varios pesos, son esenciales para cualquier rutina de ejercicio, proporcionando resultados visibles en poco tiempo. Perfectas para ejercicios de fuerza, resistencia y rehabilitación, nuestras mancuernas te ayudarán a alcanzar tus objetivos de fitness más fácilmente.",
         "categoria": {
-            "id": "objetos",
-            "nombre": "Objetos"
+            "id": "entrenamiento",
+            "nombre": "Entrenamiento"
         }
     }
 ]

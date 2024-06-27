@@ -1,13 +1,13 @@
 import { Navbar } from "./Navbar"
-import { Carrito } from './Carrito'
+import { CartWidget } from './CartWidget'
 import { Link } from 'react-router-dom'
 
-export const Header = (props) => {
+export const Header = () => {
   return (
     <header className="header">
         <Link to="/"><img src="/src/img/logo.png" alt="Logo" /></Link>
         <Navbar />
-        <Carrito numeroCarrito={props.numeroCarrito}/>
+        <CartWidget />
     </header>
   )
 }

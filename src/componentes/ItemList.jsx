@@ -7,9 +7,9 @@ export const ItemList = ( {productos} ) => {
     <div className="container-cards">
         {
           productos.length > 0 ?
-          productos.map(producto => {
-            return <Item key={producto.id} producto={producto} />
-          })
+          productos.map((producto) => (
+            <Item key={producto.id} producto={producto} />
+          ))
           : <div className="container-load">
               <p className="load">Cargando productos...</p>
             </div>
