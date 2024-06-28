@@ -3,7 +3,7 @@ import { CartContext } from './context/CartContext';
 import { useForm } from 'react-hook-form';
 import {collection, addDoc } from "firebase/firestore";
 import { db } from '../firebase/config';
-import { EmojiSmileFill } from 'react-bootstrap-icons';
+import { EmojiSmile } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 
 export const CheckOut = () => {
@@ -28,11 +28,13 @@ export const CheckOut = () => {
             })
     }
 
+    //! ARREGLAR LOS LINKS DE LAS IMAGENES
+
     if (docId) {
         return (
             <div className="compra-finalizada">
                 <div className="contenido-compra">
-                    <EmojiSmileFill className="icono-checkout"/>
+                    <EmojiSmile className="icono-checkout"/>
                     <h1>Muchas gracias por tu compra</h1>
                     <p>Para hacer el seguimiento de tu pedido, el identificador es este: {docId}</p>
                     <Link to="/" className="btn-checkout">Volver a la tienda</Link>
