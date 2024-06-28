@@ -34,7 +34,7 @@ Instalación
 Clonar el repositorio:
 bash
 Copiar código
-git clone https://github.com/csluduena/CoderHouse-DesarrolloFullStack-React-Trabajo2
+git clone https://github.com/GabrielVlae/Proyecto-React
 Instalar las dependencias:
 bash
 Copiar código

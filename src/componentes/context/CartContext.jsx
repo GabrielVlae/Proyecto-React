@@ -1,13 +1,27 @@
 import { createContext, useState } from "react"
 import Swal from 'sweetalert2'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const CartContext = createContext();
 
 export const CartProvider = ({children}) => {
 
-    const [carrito, setCarrito] = useState([]);
+  const toastCompra = () => {
+    toast.success("Producro agregado", {
+      theme: "dark",
+      position: "bottom-right",
+      hideProgressBar: false,
+      autoClose: 1300,
+      closeOnClick: true,
+    });
+  }
+  
+  const [carrito, setCarrito] = useState([]);
+  
+  const agregarCarrito = (producto) => {
 
-    const agregarCarrito = (producto) => {
+      toastCompra()
 
       const productoEncontrado = carrito.find(prod => prod.id === producto.id);
 
@@ -19,10 +33,6 @@ export const CartProvider = ({children}) => {
           setCarrito([...carrito, { ...producto, cantidad: 1 }]);
       }
     }
-
-    const calcularCantidadProd = () => {
-      return carrito.reduce((acc, prod) => acc + prod.cantidad, 0);
-  }
 
     const vaciarCarritoAlerta = () => {
       const swalWithBootstrapButtons = Swal.mixin({
@@ -97,7 +107,7 @@ export const CartProvider = ({children}) => {
 
     return (
 
-    <CartContext.Provider value={ { carrito, agregarCarrito, calcularCantidad, vaciarCarrito, eliminarDelCarrito, calcularTotal, vaciarCarritoAlerta, aumentarCantidad, disminuirCantidad, calcularCantidadProd } }>
+    <CartContext.Provider value={ { carrito, agregarCarrito, calcularCantidad, vaciarCarrito, eliminarDelCarrito, calcularTotal, vaciarCarritoAlerta, aumentarCantidad, disminuirCantidad, toastCompra } }>
         {children}
     </CartContext.Provider>
 

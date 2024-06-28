@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export const CheckOut = () => {
 
-    const { carrito, vaciarCarrito, calcularTotal, calcularCantidadProd } = useContext(CartContext);
+    const { carrito, vaciarCarrito, calcularTotal } = useContext(CartContext);
     const { register, handleSubmit } = useForm();
     let [docId, setDocId] = useState("");
 
@@ -28,14 +28,12 @@ export const CheckOut = () => {
             })
     }
 
-    //! ARREGLAR LOS LINKS DE LAS IMAGENES
-
     if (docId) {
         return (
             <div className="compra-finalizada">
                 <div className="contenido-compra">
                     <EmojiSmile className="icono-checkout"/>
-                    <h1>Muchas gracias por tu compra</h1>
+                    <h1>¡Muchas gracias por tu compra!</h1>
                     <p>Para hacer el seguimiento de tu pedido, el identificador es este: {docId}</p>
                     <Link to="/" className="btn-checkout">Volver a la tienda</Link>
                 </div>
@@ -49,10 +47,14 @@ export const CheckOut = () => {
 
             <h2>Complete el formulario</h2>
 
-            <input type="text" placeholder="Ingrese su nombre" {...register("nombre")}/>
-            <input type="email" placeholder="Ingrese su email" {...register("email")}/>
-            <input type="password" placeholder="Ingrese su contraseña" {...register("contraseña")}/>
-            <button className="btn-form" type="submit">Comprar</button>
+            <div className="inputs">
+                <input type="text" placeholder="Ingrese su nombre" {...register("nombre")}/>
+                <input type="email" placeholder="Ingrese su email" {...register("email")}/>
+                <input type="password" placeholder="Ingrese su contraseña" {...register("contraseña")}/>
+                <button className="btn-form" type="submit">Comprar</button>
+            </div>
+
+            <p>¡Gracias por confiar en nosotros!</p>
         </form>
     </div>
   )

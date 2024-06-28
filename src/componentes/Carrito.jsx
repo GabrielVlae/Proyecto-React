@@ -18,7 +18,7 @@ export const Carrito = () => {
 
                 <div>
                   <h1>Producto: {prod.nombre}</h1>
-                  <p className="precio-carrito"><strong>Precio: </strong>{prod.precio}</p>
+                  <p className="precio-carrito"><strong>Precio: </strong>{prod.precio * prod.cantidad}</p>
                 </div>
                 <div className="cantidad-prod">
                   <button className="btn-cantidad" onClick={() => { disminuirCantidad(prod)}}>-</button>

@@ -32,6 +32,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
+    font-weight: bold;
     text-transform: uppercase;
     font-style: italic;
   }
@@ -64,7 +65,7 @@
   }
 
   .nav-link.active{
-    text-decoration: underline;
+    border-bottom: 2px solid white;
   }
 
   /*? PRODUCTOS */
@@ -206,7 +207,7 @@
     padding: 2rem;
     background-color: black;
     color: white;
-    border-radius: 10px 0 45px 0;
+    border-radius: 0 0 45px 0;
     display: flex;
     flex-direction: column;
   }
@@ -309,7 +310,7 @@
   }
 
   .cart-compras{
-    background-image: linear-gradient(to right, #222222,black);
+    background-image: linear-gradient(to right,#7a7a7a,black,black);
     color: white;
     padding: 2rem;
     margin: 2rem;
@@ -352,7 +353,8 @@
 
   .num-carrito{
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
   }
 
   /*? FORMULARIO */
@@ -395,6 +397,12 @@
     color: black;
   }
 
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
   .container-form form{
     background-color: black;
     display: flex;
@@ -402,8 +410,17 @@
     padding: 2rem;
     gap: 1.5rem;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 20px 0 20px 0;
+  }
+
+  .container-form form p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
   }
 
   .container-form form input{
@@ -464,7 +481,7 @@
   /*? NOTFOUND */
 
   .container-notfound{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -472,7 +489,7 @@
     gap: 1rem;
   }
   .container-notfound .icono-notfound{
-    font-size: 9rem;
+    font-size: 8rem;
   }
 
   .container-notfound span{

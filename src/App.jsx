@@ -8,8 +8,12 @@ import ItemDetailContainer from './componentes/ItemDetailContainer';
 import { CartProvider } from './componentes/context/CartContext';
 import { Carrito } from './componentes/Carrito';
 import { CheckOut } from './componentes/CheckOut';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+
+  const notify = () => toast("Wow so easy!");
 
   return (
     <>
@@ -24,6 +28,7 @@ function App() {
             <Route path="/finalizar-compra" element={<CheckOut />} />
             <Route path="/*" element={<NotFound />}/>
           </Routes>
+          <ToastContainer />
           <Footer />
         </BrowserRouter>
       </CartProvider>   
